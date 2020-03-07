@@ -1,0 +1,9 @@
+.word {
+    font-family: 'Moulpali', cursive;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: 'Moulpali', cursive;
+    src: url(../fonts/fontkhmer/Moulpali-Regular.ttf)
+}
