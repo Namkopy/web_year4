@@ -10,6 +10,8 @@ $con= new Dbconn();
   $conn=$con->DbConnect();
 //    $sqlStr = ;
 $count=0;
+$count1=0;
+$count2=0;
    $sqlQry = $conn->query("SELECT * FROM tbl_drink WHERE status='1' ORDER BY approveDate DESC ");
    $sqlQry1 = $conn->query("SELECT * FROM tbl_food WHERE status='1' ORDER BY approveDate DESC ");
    $sqlQry2 = $conn->query("SELECT * FROM tbl_cafe WHERE status='1' ORDER BY approveDate DESC ");
@@ -138,8 +140,8 @@ $count=0;
 				<?php
                 if ($sqlQry1->num_rows > 0) {
                     while ($rows = $sqlQry1->fetch_array()) {
-                        $count ++;
-                        if ($count==7) {
+                        $count1 ++;
+                        if ($count1==7) {
                             break;
                         }
                         echo "
@@ -166,8 +168,8 @@ $count=0;
         		<?php
                 if ($sqlQry2->num_rows > 0) {
                     while ($rows = $sqlQry2->fetch_array()) {
-                        $count ++;
-                        if ($count==7) {
+                        $count2 ++;
+                        if ($count2==7) {
                             break;
                         }
                         echo "
