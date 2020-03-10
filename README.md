@@ -15,9 +15,13 @@ Guide for access our website 'RUPP Cafe'
    - User Login
       + user name : admin  , password : admin  [rule : admin] 
       + user name : vanny  , password : 123  [rule : creater] 
-      + user name : admin  , password : admin  [rule : Editer] 
+      + user name : sokkim  , password : 123  [rule : Editer] 
  * Note: Book and slide in github 
  
  Gorup Members (Class : E6 , Room : A305 , Year4)
   1. Nam kopy
-  2. 
+  2. Roth Sokkim
+  3. Sim Sopheap
+  4. Chhun Vanny
+  5. Sok Darava
+  6. Sokhoeun Makara 
